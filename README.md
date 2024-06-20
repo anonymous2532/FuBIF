@@ -10,46 +10,24 @@
 - [Contact](#contact)
 
 ## Overview
-FuBIF is a Python-based framework for [brief description of the project]. It is designed to [primary purpose or function of the project]. This repository includes scripts and notebooks for conducting experiments, processing data, and generating results related to [specific focus or application of the project].
+FuBIF (Function-Based Isolation Forest) is an advanced anomaly detection framework designed to generalize the traditional Isolation Forest (IF) algorithm. Traditional IF models have inherent biases and adaptability issues when applied to diverse datasets. FuBIF addresses these limitations by introducing a more flexible branching mechanism that leverages a set of real-valued functions for dataset splitting. This allows FuBIF to adapt more effectively to complex, non-linear data structures.
+
+Key features of FuBIF include:
+
+- **Flexible Branching Mechanism:** FuBIF trees are built using a set of real-valued functions, allowing for more adaptable and precise data splitting.
+- **FuBIF Feature Importance (FuBIFFI):** This generalizes the concept of feature importance in IF-based methods, providing comprehensive feature importance scores across all potential FuBIF models.
+
+FuBIF is designed to be a unifying framework, integrating multiple existing IF-type models within a common mathematical structure and equipping them with a standardized interpretability algorithm. This makes FuBIF not only powerful in detecting anomalies but also valuable in providing insights into the underlying data patterns.
 
 ## Installation
-To install the necessary dependencies, follow these steps:
-
-1. Clone the repository:
+Clone the repository:
     ```sh
     git clone https://github.com/your-username/FuBIF.git
     cd FuBIF
     ```
 
-2. Create a virtual environment:
-    ```sh
-    python3 -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
-    ```
-
-3. Install the required packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
 ## Usage
-To use the scripts and notebooks in this repository, follow the instructions below:
 
-1. Running the main script:
-    ```sh
-    python FuBIF.py
-    ```
-
-2. Running optimized functions:
-    ```sh
-    python FuBIF_optimized.py
-    ```
-
-3. Using the provided Jupyter notebooks:
-    Navigate to the `notebooks` directory and open any notebook with Jupyter:
-    ```sh
-    jupyter notebook
-    ```
 
 ## Directory Structure
 The repository is organized as follows:
@@ -70,15 +48,6 @@ FuBIF-main/
 └── utils/                     # Utility scripts
 ```
 
-## Contributing
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some feature'`)
-5. Push to the branch (`git push origin feature-branch`)
-6. Open a pull request
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
