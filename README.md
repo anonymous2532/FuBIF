@@ -5,7 +5,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Directory Structure](#directory-structure)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
