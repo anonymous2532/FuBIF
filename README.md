@@ -39,9 +39,7 @@ FuBIF-main/
 ├── README.md                  # Project README file
 ├── data/                      # Directory for input data
 ├── notebooks/                 # Jupyter notebooks for analysis
-├── projections.py             # Script for projections
 ├── results/                   # Directory for storing results
-├── sinusoid_u/                # Directory related to sinusoid functions
 ├── split_functions.py         # Script for split functions
 ├── split_functions_optimized.py # Optimized version of split functions
 └── utils/                     # Utility scripts
