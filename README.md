@@ -1,4 +1,4 @@
-# FuBIF
+# Function Based Isolation Forest (FuBIF)
 
 ## Table of Contents
 - [Overview](#overview)
